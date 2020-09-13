@@ -1,0 +1,2 @@
+var slideImage=[{"image": "https://i.imgur.com/G5yKY6I.jpg"},{"image":"https://i.imgur.com/QHOa35q.jpg"},{"image":"https://i.imgur.com/2U7ziEs.jpg"},{"image":"https://i.imgur.com/HtsmOMt.jpg"},{"image": "https://i.imgur.com/4PAPEd5.jpg"},{"image": "https://i.imgur.com/wEUxK0o.jpg"},{"image":"https://i.imgur.com/0lOg8jz.jpg"}];
+export default slideImage;

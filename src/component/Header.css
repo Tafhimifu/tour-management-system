@@ -1,0 +1,20 @@
+.navbar-image{
+    height: 60px;
+    margin-left: 100px;
+}
+.navbar-text{
+    margin-right:10px;
+    font-size: large;
+    
+}
+.navbar-title{
+    margin-right: 300px;
+    color:mediumseagreen;
+}
+ .nav-contain{
+     background-color:lightblue;
+     height: 80px;
+     border-bottom:1.45px solid midnightblue;
+ }
+
+ 
