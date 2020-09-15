@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, Button} from 'react-bootstrap';
+import { Card} from 'react-bootstrap';
 import './PlacesData.css';
 import {
   Link
@@ -17,11 +17,15 @@ const PlacesData = (props) => {
     <Card.Body>
       <Card.Title>  {name}</Card.Title>
       </Card.Body>
+      <Card.Body></Card.Body>
+    
     <Card.Footer>
-      {situated} 
-       <br/>
-    <Link to={"/place/"+name}> See more...</Link>
-    </Card.Footer>
+      {situated}
+      <br/> 
+      </Card.Footer>
+      <Link to={"/place/"+name} >Details</Link>
+    
+    
     
     </Card>
    

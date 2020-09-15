@@ -1,34 +1,35 @@
- import React, { useState } from 'react';
-import guideData from '../mockData/guide';
-import { CardDeck, Card } from 'react-bootstrap';
+ import React from 'react';
+
+import { Card } from 'react-bootstrap';
+import './GuideServices.css';
 
 
-const GuideServices = () => {
-    const[guide,setGuide] = useState(guideData);
+const GuideServices = (props) => {
+    const {name,img,AvailableDay} = props.guides;
     
     return (
-        <div>
-             <h3> Our guide</h3>
-            <CardDeck>
+        
+           <div> 
                 
-  {   guide.map(guides=>
-                <Card>
-                <Card.Img variant="top"  className="place-image"  src={guides.img} />
-    <Card.Body>
-      <Card.Title>{guides.name}</Card.Title>
-      </Card.Body>
-    <Card.Footer>
-      
-       <br/>
-     
-    </Card.Footer>
-    
-                </Card>)
-}
-            </CardDeck>
-
+                
+                              <Card className="guide-contain">
+                              <Card.Img variant="top"  className="guide-image"  src={img} />
+                              <Card.Body>
+                              {name}
+                              </Card.Body>
+                              
+                               <Card.Footer>
+                    
+                              <h6>Available Day :  {AvailableDay}</h6>
+                   
+                           </Card.Footer>
+                  
+                              </Card>
             
-        </div>
+                          
+              </div>
+            
+    
     );
 };
 

@@ -14,6 +14,7 @@ import GuideServices from './component/GuideServices';
 import About from './component/About';
 import Contact from './component/Contact';
 import PlaceDetailsMap from './component/PlaceDetailsMap';
+import GuideServicesFetch from './component/GuideServicesFetch';
 
 
 
@@ -24,32 +25,37 @@ function App() {
   return (
     <div>
       <Header></Header>
-      <SlideBar></SlideBar>
+      
        <Router>
       <Switch>
           <Route path="/home">
+          <SlideBar></SlideBar>
           <PlaceFetch></PlaceFetch>
           <About></About>
           <Contact></Contact>
           </Route>
           <Route path="/ourServices">
           <RideServices></RideServices>
-      <GuideServices></GuideServices>
+      <GuideServicesFetch></GuideServicesFetch>
           </Route>
           <Route path="/contactUs">
+          <SlideBar></SlideBar>
           <PlaceFetch></PlaceFetch>
           <About></About>
           <Contact></Contact>
          </Route>
          <Route path="/place/:placeName">
+         <SlideBar></SlideBar>
            <PlaceDetailsMap></PlaceDetailsMap>
          </Route>
          <Route exact path="/">
+         <SlideBar></SlideBar>
           <PlaceFetch></PlaceFetch>
           <About></About>
           <Contact></Contact>
          </Route>
           <Route path="/aboutUs">
+          <SlideBar></SlideBar>
           <PlaceFetch></PlaceFetch>
           <About></About>
           <Contact></Contact>

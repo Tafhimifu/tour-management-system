@@ -34,26 +34,13 @@ var guide =[
       "AvailableDay": "Wed Thurs Fri",
       "img": "https://www.mantruckandbus.com/fileadmin/media/bilder/020/mit-18-monaten-planungszeit-stefan-sahlmann-header.jpg"
     },
-    {
-      "name": "Liu Yuan ",
-      "AvailableDay": "Sat Sun Mon Fri",
-      "img": "https://i.dlpng.com/static/png/6709284_preview.png"
-    },
+    
     {
       "name": "Steven Zhang",
       "AvailableDay": "Tues Wed Thurs",
       "img": "https://www.duraplas.com.au/wp-content/uploads/2015/08/Smiling-young-casual-man-2.png"
     },
-    {
-      "name": "Choi Bo Min",
-      "AvailableDay": "Fri Sat Sun",
-      "img": "https://directplusnow.com/wp/wp-content/uploads/2013/09/smilingMan-b.png"
-    },
-    {
-      "name": "Randeep Rai",
-      "AvailableDay": "Mon Tues Wed Thurs",
-      "img": "https://jooinn.com/images/man-31.jpg"
-    },
+    
     {
       "name": "Zheyuan Chen",
       "AvailableDay": "Mon Tues Wed Fri",

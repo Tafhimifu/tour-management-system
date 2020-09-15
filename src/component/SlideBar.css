@@ -1,3 +1,11 @@
 .carousel-item{
     height:500px;
 }
+.places-card{
+    text-align: center;
+    margin-top: 80px;
+    color:darkcyan;
+    background-color:azure;
+    height: 80px;
+    font-weight: bolder;
+}

@@ -3,6 +3,7 @@ import mockData from '../mockData/places';
 import { CardDeck} from 'react-bootstrap';
 import PlacesData from './PlacesData';
 
+
 const PlaceFetch = () => {
     const[place,setPlace] = useState(mockData);
     return (

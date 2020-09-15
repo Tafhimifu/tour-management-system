@@ -21,7 +21,7 @@ const SlideBar = () => {
   }
   
 </Carousel>
-<h2 className="d-flex align-items-center">Sites</h2>
+<div class="places-card"><h2 >Tourist Places</h2></div>
 
 </div>
 

@@ -1,0 +1,23 @@
+h2{
+    color:teal;
+    text-align: center;
+    margin-top: 50px;
+    height: 100px;
+    background-color: white;
+}
+h3{
+    color:cadetblue;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    background-color: whitesmoke;
+    padding-top: 30px;
+    height: 80px;
+}
+.ride-image{
+    width: 290px;
+    height: 160px;
+}
+.ride{
+    width: 290px;
+    color:lightseagreen;
+}

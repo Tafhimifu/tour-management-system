@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { CardDeck, Card } from 'react-bootstrap';
 import mockRide from '../mockData/ride';
-
+import './RideServices.css';
 
 const RideServices = (props) => {
     const[ride,setRide] = useState(mockRide);
@@ -12,16 +12,12 @@ const RideServices = (props) => {
             <CardDeck>
                 {
 
-               ride.map(rides=> <Card>
-                <Card.Img variant="top"  className="place-image"  src={rides.image} />
+               ride.map(rides=> <Card className="ride">
+                <Card.Img variant="top"  className="ride-image"  src={rides.image} />
     <Card.Body>
-      <Card.Title></Card.Title>
+      <Card.Title> {rides.name}</Card.Title>
       </Card.Body>
-    <Card.Footer>
-      
-       <br/>
-     
-    </Card.Footer>
+    
     
                 </Card>)}
                 </CardDeck>
